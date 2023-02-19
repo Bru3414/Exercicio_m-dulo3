@@ -1,7 +1,6 @@
 const form = document.getElementById('form');
 var linhas ='';
 var numOrganizado = '';
-var addContatos = 0;
 var num = [];
 
 form.addEventListener('submit', function(e) {
@@ -123,7 +122,6 @@ function addContato() {
 
         num.push(numero.value);
 
-        addContatos++;
     }
 
     nome.value = '';
@@ -135,5 +133,5 @@ function atualizaTabela() {
     const corpoTabela = document.querySelector('tbody');
     const qtdContatos = document.getElementById('qtd-contatos');
     corpoTabela.innerHTML = linhas;
-    qtdContatos.innerHTML = `Quantidade de contatos: ${addContatos}`;
+    qtdContatos.innerHTML = `Quantidade de contatos: ${linhas.split('</tr>').length - 1}`;
 }
