@@ -55,6 +55,7 @@ ul {
     margin: 10px auto;
     border: 2px solid;
     border-radius: 5px;
+    background-color: rgb(197, 159, 108);
 }
 
 ul li {
@@ -70,6 +71,8 @@ ul li {
 li p {
     text-align: center;
     color: #000;
+    font-family: 'Mynerve', cursive;
+    font-weight: bold;
 }
 
 a {
