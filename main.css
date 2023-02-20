@@ -1,116 +1,77 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: Roboto, sans-serif;
 }
 
 body {
-    background-color: rgba(35, 48, 49, 0.3);
-    margin-top: 100px;
-}
-
-.conteiner {
-    max-width: 960px;
-    width: 100%;
-    margin: 0 auto;
+    background-color: rgba(119, 148, 148, 0.5);
 }
 
 header {
-    max-width: 640px;
-    display: flex;
+    background-color: gray;
     justify-content: center;
-    margin-bottom: 40px;
+    display: flex;
+    padding: 17px 0px;
+    border-bottom: 10px solid rgb(97, 96, 96);
+    text-transform: uppercase;
+    color: #312d2d;
 }
 
 header h1 {
-    color: rgb(39, 39, 43);
-    font-size: 40px;
     font-weight: bold;
-    border-bottom: 3px solid rgb(39, 39, 43);
-    border-top: 3px solid rgb(39, 39, 43);
-    border-radius: 4px;
 }
 
 form {
+    justify-content: center;
     display: flex;
-    max-width: 640px;
-    width: 100%;
-    justify-content: space-between;
-    margin-bottom: 56px;
+    padding: 15px 0;
 }
 
-form input {
-    font-size: 24px;
-    font-weight: bold;
-    background-color: #fff;
-    color: rgb(39, 39, 43);
-    padding: 6px;
+form input, button {
+    font-size: 16px;
+    padding: 8px;
     border: none;
-    border-bottom: 2px solid rgb(39, 39, 43);
-    margin-left: 6px;
     border-radius: 5px;
-}
-
-form button {
-    background-color: rgb(39, 39, 43);
-    color: #fff;
-    padding: 6px 20px;
-    margin-left: 6px;
-    border: none;
-    cursor: pointer;
     border-bottom: 2px solid #000;
-    border-radius: 5px;
-    font-weight: bold;
 }
 
-table {
-    max-width: 640px;
-    width: 100%;
-}
-
-table th {
-    font-size: 24px;
-    font-weight: bold;
-    color: rgb(39, 39, 43);
-    border-bottom: 3px solid rgb(39, 39, 43);
-}
-
-table td {
-    text-align: center;
-    font-size: 18px;
-    padding: 6px;
-    border-bottom: 1px solid rgba(39, 39, 43, 0.2);
-}
-
-table tbody td img {
-    height: 18px;
-}
-
-table tfoot {
-    margin-top: 30px;
-    display: block;
-}
-
-table tfoot td {
-    background-color: rgb(39, 39, 43);
+button {
+    margin-left: 16px;
+    background-color: rgb(8, 165, 8);
     color: #fff;
-    font-size: 18px;
-    font-weight: bold;
-    border: 3px solid #000;
-    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
-#error {
-    max-width: 640px;
-    font-size: 23px;
-    font-weight: bold;
-    padding: 10px;
-    background-color: red;
-    color: #fff;
+input:focus {
+    outline: none;
+}
+
+ul {
     text-align: center;
-    border-radius: 6px;
-    margin-bottom: 20px;
-    display: none;
-    width: 100%;
+    display: table;
+    margin: 10px auto;
+}
+
+ul li {
+    font-size: 17px;
+    margin-top: 10px;
+    width: 200px;
+    list-style: none;
+    display: flex;
+}
+
+li p {
+    text-align: center;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li:hover {
+    cursor: pointer;
 }
