@@ -53,6 +53,8 @@ ul {
     text-align: center;
     display: table;
     margin: 10px auto;
+    border: 2px solid;
+    border-radius: 5px;
 }
 
 ul li {
@@ -61,6 +63,8 @@ ul li {
     width: 200px;
     list-style: none;
     display: flex;
+    margin: 0 5px;
+    border-bottom: 1px solid rgba(0, 0, 0, .4);
 }
 
 li p {

@@ -14,6 +14,7 @@ $(document).ready(function() {
         nTarefa++;
         $('#nome-tarefa').val('');
 
+
     })
 
     $('ul').on('click','li',function() {
