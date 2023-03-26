@@ -1,83 +1,45 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
 }
 
-body {
-    background-color: rgba(119, 148, 148, 0.5);
+.conteiner {
+    display: flex;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
 }
 
 header {
-    background-color: gray;
-    justify-content: center;
-    display: flex;
-    padding: 17px 0px;
-    border-bottom: 10px solid rgb(97, 96, 96);
-    text-transform: uppercase;
-    color: #312d2d;
+    padding: 16px 0;
 }
 
-header h1 {
+h1 {
+    text-transform: uppercase;
     font-weight: bold;
 }
 
-form {
-    justify-content: center;
+form input {
     display: flex;
-    padding: 15px 0;
+    padding: 8px 0;
+    margin-top: 6px;
+    width: 400px;
+    border-radius: 5px;
+    font-size: 13px;
 }
 
-form input, button {
-    font-size: 16px;
+form button {
+    background-color: rgb(59, 59, 209);
     padding: 8px;
     border: none;
     border-radius: 5px;
-    border-bottom: 2px solid #000;
-}
-
-button {
-    margin-left: 16px;
-    background-color: rgb(8, 165, 8);
+    width: 100%;
     color: #fff;
     text-transform: uppercase;
-    cursor: pointer;
-}
-
-input:focus {
-    outline: none;
-}
-
-ul {
-    text-align: center;
-    display: table;
-    margin: 10px auto;
-    border: 2px solid;
-    border-radius: 5px;
-    background-color: rgb(197, 159, 108);
-}
-
-ul li {
-    font-size: 17px;
-    width: 200px;
-    list-style: none;
-    display: flex;
-    margin: 0 5px;
-    border-bottom: 1px solid rgba(0, 0, 0, .4);
-}
-
-li p {
-    text-align: left;
-    color: #000;
-    font-family: 'Mynerve', cursive;
-    font-weight: bold;
-}
-
-a {
-    text-decoration: none;
-}
-
-ul li:hover {
+    margin-top: 10px;
     cursor: pointer;
 }
