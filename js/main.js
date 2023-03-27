@@ -21,15 +21,15 @@ $(document).ready(function() {
     })
 
     $('#tel').mask('(00) 00000-0000', {
-        placeholder: '(__) _____-____'
+        placeholder: 'Telefone'
     })
 
     $('#cpf').mask('000.000.000-00', {
-        placeholder: '___.___.___-__'
+        placeholder: 'CPF'
     })
 
     $('#cep').mask('00000-000', {
-        placeholder: '_____-___'
+        placeholder: 'CEP'
     })
 
     $('form').validate({
