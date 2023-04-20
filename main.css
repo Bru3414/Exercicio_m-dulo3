@@ -11,158 +11,17 @@
     margin: 0 auto;
 }
 
-header {
-    width: 100%;
-    background-color: rgb(57, 57, 204);
+form {
+    width: 300px;
+    margin: 0 auto;
 }
 
-header .conteiner{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-header h1 {
-    font-size: 2em;
-    font-weight: bold;
-    color: #fff;
-}
-
-header ul li {
-    list-style: none;
-    float: left;
-    margin-left: 16px;
-}
-
-header ul li a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-}
-
-.sobre {
-    margin-top: 40px;
-}
-
-.sobre .conteiner {
-    display: flex;
-}
-
-#img-loja {
-    height: 300px;
-}
-
-h2 {
-    border-bottom: 2px solid rgb(57, 57, 204);
-    margin-bottom: 24px;
-    padding-bottom: 8px;
-    font-weight: bold;
-    font-size: 30;
-    color: rgb(57, 57, 204);
-}
-
-.sobre .conteiner div {
-    margin-left: 24px;
-}
-
-.produtos {
-    margin: 56px 0 56px;
-}
-
-.produtos .conteiner ul {
-    display: grid;
-    grid-template-columns: repeat(4, 23.5%);
-    column-gap: 2%;
-    row-gap: 5%;
-}
-
-.produtos ul li {
-    border-radius: 5px;
-    list-style: none;
-}
-
-.produtos img {
-    width: 100%;
-    background-color: #fff;
-    border-radius: 5px;
-    margin-bottom: 30px;
-}
-
-.produtos button {
-    width: 100%;
-    padding: 8px;
-    background-color: rgb(57, 57, 204);
-    border: none;
-    border-radius: 5px;
-    color: #fff;
+form button {
+    width: 300px;
+    margin: 0 auto;
     margin-top: 16px;
-    cursor: pointer;
 }
 
-@media screen and (max-width: 767px) {
-    .conteiner {
-        width: 90%;
-    }
-
-    header h1 {
-        font-size: 1.1em;
-    }
-
-    header ul li {
-        margin-left: 7px;
-    }
-
-    header ul li a {
-        font-size: .6em;
-    }
-
-    .sobre .conteiner {
-        display: block;
-    }
-
-    img {
-        width: 100%;
-    }
-
-    .sobre .conteiner div {
-        margin-left: 0;
-        margin-top: 30px;
-    }
-
-    .produtos .conteiner ul {
-        display: block;
-    }
-
-    .produtos ul li {
-        margin-bottom: 40px;
-        padding-bottom: 8px;
-        border-bottom: 2px solid rgb(57, 57, 204)
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-    .conteiner {
-        width: 90%;
-    }
-
-    img {
-        width: 100%;
-    }
-
-    .sobre .conteiner {
-        display: block;
-    }
-
-    .sobre .conteiner div {
-        margin-left: 0;
-        margin-top: 30px;
-    }
-
-    .produtos .conteiner ul {
-        grid-template-columns: repeat(2, 49%);
-        column-gap: 2%;
-        row-gap: 5%;
-    }
-
+form div {
+    margin-top: 20px;
 }
