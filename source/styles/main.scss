@@ -1,0 +1,13 @@
+@use 'variaveis';
+
+body {
+    background-color: variaveis.$corDeFundo;
+}
+
+.container {
+    height: 800px;
+    background-color: red;
+    max-width: 1024px;
+    margin: 0 auto;
+    width: 100%;
+}
